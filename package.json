@@ -1,0 +1,98 @@
+{
+  "name": "fca-shankar-bot",
+  "version": "20.0.0",
+  "description": "Facebook-chat-api made by Smart Shankar",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "lint": "./node_modules/.bin/eslint **.js",
+    "prettier": "prettier utils.js src/* --write"
+  },
+  "author": "Smart Shankar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SHANKAR-PROJECT/try/issues"
+  },
+  "homepage": "https://github.com/SHANKAR-PROJECT/try#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SHANKAR-PROJECT/try.git"
+  },
+  "dependencies": {
+    "aes-js": "latest",
+    "ansi-to-html": "latest",
+    "assert": "latest",
+    "bluebird": "latest",
+    "chalk": "5.4.1",
+    "cheerio": "1.1.0",
+    "crypto-js": "latest",
+    "deasync": "^0.1.30",
+    "duplexify": "^4.1.3",
+    "better-sqlite3": "12.2.0",
+    "encode32": "latest",
+    "express": "latest",
+    "figlet": "latest",
+    "file-url": "^4.0.0",
+    "got": "^14.4.7",
+    "https-proxy-agent": "latest",
+    "is-hexcolor": "^1.0.0",
+    "lodash": "latest",
+    "moment": "^2.30.1",
+    "mqtt": "^5.13.1",
+    "npmlog": "latest",
+    "os": "latest",
+    "path": "latest",
+    "pretty-ms": "9.2.0",
+    "readable-stream": "^4.7.0",
+    "readline": "latest",
+    "request": "latest",
+    "speakeasy": "latest",
+    "sqlite3": "^5.1.7",
+    "totp-generator": "^1.0.0",
+    "tough-cookie": "^5.1.2",
+    "uuid": "latest",
+    "ws": "^8.18.3"
+  },
+  "engines": {
+    "node": ">=20.x <22.x"
+  },
+  "devDependencies": {
+    "eslint": "latest",
+    "mocha": "latest",
+    "prettier": "latest"
+  },
+  "eslintConfig": {
+    "env": {
+      "es6": true,
+      "node": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+      "sourceType": "module"
+    },
+    "rules": {
+      "linebreak-style": [
+        "error",
+        "unix"
+      ],
+      "semi": [
+        "error",
+        "always"
+      ],
+      "no-unused-vars": [
+        1,
+        {
+          "argsIgnorePattern": "^_"
+        }
+      ]
+    }
+  },
+  "keywords": [
+    "facebook-chat-api",
+    "fb-chat-api",
+    "Fca Shankar",
+    "fca-smart-shankar",
+    "fca-shankar-bot",
+    "Smart Shankar"
+  ]
+}
